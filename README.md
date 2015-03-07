@@ -18,7 +18,11 @@ WRONG
 
 7.[两个有序链表序列的合并（15）](http://www.patest.cn/contests/ds/2-11) merge_ordered_linked_list.cpp
 
-8.[两个有序链表序列的交集（20）](http://www.patest.cn/contests/ds/2-12) union_ordered_linked_list.cpp
+8.[两个有序链表序列的交集（20）](http://www.patest.cn/contests/ds/2-12) intersect_ordered_linked_list.cpp
+
+9.[两个有序序列的中位数（25）](http://www.patest.cn/contests/ds/2-13) middle_number_of_union_set.cpp
+
+!!根本不要去重！！ = =
 
 
 
