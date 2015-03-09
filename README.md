@@ -26,6 +26,8 @@ WRONG
 
 10. [一元多项式的乘法与加法运算（20）](http://www.patest.cn/contests/ds/3-04) polynomial_add_and_mul.cpp
 
+11. [求链式线性表的倒数第K项（15）](http://www.patest.cn/contests/ds/3-05) back_count_K.cpp
+
 
 
 
