@@ -28,6 +28,10 @@ WRONG
 
 11. [求链式线性表的倒数第K项（15）](http://www.patest.cn/contests/ds/3-05) back_count_K.cpp
 
+12. [表达式转换（25）](http://www.patest.cn/contests/ds/3-06) expr_trans.cpp
+
+
+
 
 
 
