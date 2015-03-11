@@ -30,6 +30,8 @@ WRONG
 
 12. [表达式转换（25）](http://www.patest.cn/contests/ds/3-06) expr_trans.cpp
 
+13. [求前缀表达式的值（25）](http://www.patest.cn/contests/ds/3-07) calc_prefix_expr.cpp
+
 
 
 
