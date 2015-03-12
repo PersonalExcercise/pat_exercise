@@ -1,4 +1,4 @@
-##PAT RECODE
+##PAT RECORD
 
 > This is built to recode the [pat datastruct](http://www.patest.cn/contests/ds) testing.  
 
@@ -10,11 +10,13 @@
 
 4. [用扑克牌计算24点（25）](http://www.patest.cn/contests/ds/2-08) calc_24.cpp
 
+    >使用了暴力枚举
+
 5. [装箱问题模拟（20）](http://www.patest.cn/contests/ds/2-09) bin_packing_problem.cpp
 
 6. [海盗分赃（25）](http://www.patest.cn/contests/ds/2-10) pirate_spoil.cpp
 
-    WRONG 
+    >WRONG 
 
 7. [两个有序链表序列的合并（15）](http://www.patest.cn/contests/ds/2-11) merge_ordered_linked_list.cpp
 
@@ -22,7 +24,7 @@
 
 9. [两个有序序列的中位数（25）](http://www.patest.cn/contests/ds/2-13) middle_number_of_union_set.cpp
 
-    !!根本不要去重！！ = =
+    >!!根本不要去重！！ = =
 
 10. [一元多项式的乘法与加法运算（20）](http://www.patest.cn/contests/ds/3-04) polynomial_add_and_mul.cpp
 
@@ -30,7 +32,35 @@
 
 12. [表达式转换（25）](http://www.patest.cn/contests/ds/3-06) expr_trans.cpp
 
+    
+    中缀表达式转后缀表达式，需要从左向右扫描中缀表达式：
+
+    1. 如果是数字，直接输出
+
+    2. 如果是操作符号，分情况讨论：
+
+        a. 如果符号是'(' ， 入栈（其实，应该将‘（’优先级设为最低，这样最稳妥）
+
+        b. 如果符号是')' ， 将栈内符号弹栈输出，直到栈顶是')' , 弹出')'.
+
+        c. 如果符号运算操作符，则需要比较该运算操作符与栈顶操作符的优先级：
+
+            i. 首先明确，栈顶可能是'(',所以为了方便，设定'('优先级最低
+
+            ii. 如果栈顶的操作符优先级低于遇到的操作符，入栈
+
+            iii. 如果栈顶的操作符高于或者等于遇到的操作符，开始出栈并输出，直到栈顶符号优先级低于遇到的符号或者栈为空为止。切记，出栈后将该操作符入栈！
+
+    3. 扫描完毕后，弹出栈内全部符号！
+
+
 13. [求前缀表达式的值（25）](http://www.patest.cn/contests/ds/3-07) calc_prefix_expr.cpp
+
+    1. 从左往右扫串，如果遇到一个操作符后跟着两个操作数的情况，则对这两个操作数使用该操作符运算，然后将结果替换掉原来的三项；
+
+
+    2. 继续下去，直到只剩一个操作数，即为结果
+
 
 14. [堆栈模拟队列（25）](http://www.patest.cn/contests/ds/3-08) queue_by_2stack.cpp
 
@@ -53,11 +83,5 @@
     2. 如果`出栈`空，`入栈`不空，则将`入栈`全部放入`出栈`中，输出`出栈`栈顶并弹出
 
     3. 如果`出栈`空，`入栈`空，则队列空
-
-
-
-
-
-
 
 
