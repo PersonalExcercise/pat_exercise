@@ -84,4 +84,12 @@
 
     3. 如果`出栈`空，`入栈`空，则队列空
 
+15. [队列中的元素排序（20）](http://www.patest.cn/contests/ds/3-09) [sort_queue_elements.cpp](src/sort_queue_elements.cpp)
+
+    开始使用的是插入排序的想法，超时。
+    
+    参看了 [Sigmainfy 烟客旅人](http://tech-wonderland.net/blog/pat-adt-3-09-sort-a-queue.html#comment-30401) 的文章
+    
+    使用了归并排序
+
 
