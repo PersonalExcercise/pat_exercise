@@ -92,4 +92,12 @@
     
     使用了归并排序
 
+16. [家谱处理（30）](http://www.patest.cn/contests/ds/4-05) [genealogy_processing.cpp](src/genealogy_procession.cpp)
+
+    非常有意思的一道题~当初写树的时候完全没有这么有意思的题目！
+
+    PAT因为考试关闭了提交，但是这个题库在考试后忘记开启啦~昨天写完了没法提交好难受，今天早上在网站上找到了陈老师的邮箱，历经两个回合，又开放啦~~
+
+    好开心！
+
 
