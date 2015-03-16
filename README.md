@@ -106,4 +106,11 @@
 
     镜像树就是先遍历右孩子再遍历左孩子节点。
 
+18. [修理牧场（25）](http://www.patest.cn/contests/ds/4-07) [repair_farm.cpp](src/repair_farm.cpp)
+
+    完全没有想到！
+
+    优先队列也是第一次使用！
+
+
 
