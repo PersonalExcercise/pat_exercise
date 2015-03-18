@@ -112,5 +112,27 @@
 
     优先队列也是第一次使用！
 
+19. [目录树（30）](http://www.patest.cn/contests/ds/4-08) [dir_tree.cpp](src/dir_tree.cpp)
+
+    写了两天。第一天写太着急，没看清要先输出目录再输出文件。后来又想得太多。
+
+    第二天决定老老实实写if判断状态。但是写出一个的时候编译的时候犯了错：
+    ```c++
+    g++ -o dir_tree.cpp dir_tree.cpp
+    ```
+    直接将源代码覆盖了。欲哭无泪。于是上网照着这了个简单的Makefile。再写了一遍dir_tree.cpp。这一次写就非常顺利，思路也清晰了。
+
+    但是还是遇到了坑，是我理解错了。就是关于string的构造函数
+
+    ```
+    string(const char* , size_t n)
+    ```
+
+    开始以为是指复制n个char*作为初始值呢！看了API文档才知道竟然是复制字符串的前n个字符作为初始值！！！难道是我把C++Primer记错了？
+
+    ```
+    string(size_t n , char )
+    ```
+    是正确的方式
 
 
