@@ -147,3 +147,8 @@
 
     应该还可以用中序遍历看下结果是否递增也行。
 
+21. [QQ帐户的申请与登陆（25）](http://www.patest.cn/contests/ds/5-05) [qq_login_and_register.cpp](src/qq_login_and_register.cpp)
+
+    直接用了MAP...
+
+
