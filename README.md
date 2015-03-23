@@ -151,4 +151,16 @@
 
     直接用了MAP...
 
+22. [航空公司VIP客户查询（25）](http://www.patest.cn/contests/ds/5-06) [airport_vip_query.cpp](src/airport_vip_query.cpp)
+
+    第一天用MAP标准库超时；
+
+    第二天自己写的hash还是超时；
+
+    网上找了相关的代码，传上去过了！但是，自己怎么改，都是要超时！
+
+    把动态内存申请改成游标法，把string改成char*，把hash函数改成相同，还是超时。我觉得是代码哪里写错了，但是为什么第一个示例又过了。
+
+    ORZ，改了一下午！算了。
+
 
